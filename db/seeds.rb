@@ -17,5 +17,6 @@ achievement03 = Achievement.create(user_id: user03.id, game_id: game03.id, creat
 achievement04 = Achievement.create(user_id: user04.id, game_id: game04.id, creator: user04.name, game_name: game04.name, title: "Topless ROB", requirements: "Beat an opponent online as ROB without using his top.")
 achievement05 = Achievement.create(user_id: user01.id, game_id: game02.id, creator: user01.name, game_name: game02.name, title: "Never Considered", requirements: "Only usePokemon you've never used before.")
 achievement06 = Achievement.create(user_id: user04.id, game_id: game05.id, creator: user04.name, game_name: game05.name, title: "With Honor", requirements: "Defeat Flamelurker without magic or projectiles as the 4th boss.")
+achievement06 = Achievement.create(user_id: user02.id, game_id: game04.id, creator: user02.name, game_name: game04.name, title: "Robber Baron", requirements: "As ROB, defeat ten player online in a row without losing a round.")
 
 print "Done!"
